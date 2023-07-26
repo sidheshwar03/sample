@@ -25,4 +25,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     - run: npm run build
+    - run: cp -r build/* /var/www/html 
+    - run: service nginx restart
     # - run: mv /home/buildpath(where build is created) /var/www/html/TransportAdminPanel
