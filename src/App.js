@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Auto deployment</h1>
+        <h2>Deploying on push</h2>
       </header>
     </div>
   );
