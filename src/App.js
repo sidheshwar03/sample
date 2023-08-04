@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Auto deployment</h1>
+        <h1>Auto deployment 2</h1>
         <h2>Deploying on push</h2>
         <h3>Restart</h3>
       </header>
